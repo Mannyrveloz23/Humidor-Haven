@@ -17,6 +17,8 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
+    "apollo-server-lambda": "^2.26.1",
+    "graphql": "^14.7.0",
     "react-star-rating-component": "^1.4.1"
   }
 }
