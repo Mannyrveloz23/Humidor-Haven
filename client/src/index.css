@@ -1,5 +1,5 @@
 :root {
-  --primary: #232F3E;
+  --primary: black                  ;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
@@ -11,6 +11,7 @@
 
 * {
   box-sizing: border-box;
+  color: black;
 }
 
 html,
@@ -42,14 +43,17 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  color: #c28d48;
 }
 
 h2 {
   font-size: 2rem;
+  color: black;
 }
 
 h3 {
   font-size: 1.75rem;
+  
 }
 
 h4 {
@@ -67,6 +71,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  color: black;
 }
 
 a {
@@ -81,11 +86,20 @@ a:hover {
 
 header {
   background: var(--primary);
+  
 }
 
 header a {
   color: var(--light);
 }
+
+.cat-div{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center ;
+}
+
 
 button {
   font-size: 1rem;
@@ -97,6 +111,8 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+  
+  
 }
 
 button:hover {
@@ -135,8 +151,7 @@ input:focus {
 }
 
 .container {
-  width: 85%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -144,6 +159,7 @@ input:focus {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .space-between {
@@ -157,6 +173,7 @@ input:focus {
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
+  
 }
 
 .mx-2 {
@@ -172,6 +189,9 @@ input:focus {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .px-1 {
@@ -203,8 +223,105 @@ input:focus {
   color: var(--error);
 }
 
+.photo {
+      
+  padding: 30px;
+  width: 45%;
+  text-align: center;
+  float: left;  
+  max-height: 240px; 
+  
+  
+}
+
+.description {
+  
+   padding: 30px;
+   float: left;
+   width: 55%;
+   border-left: 2px solid white;
+}
+h1 {
+     color:black;
+     font-weight: 300;
+     padding-top: 15px;
+     margin: 0;
+     font-size: 30px;
+     font-weight: 300;
+   }
+ 
+   .cardproductname {
+    color: #515151;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+   }
+  
+   .descriptionpruduct { 
+     font-size: 12px; 
+     line-height: 20px;
+     color: #727272;
+     padding: 20px 0;
+     margin: 0;
+  }
+  
+   button {
+
+     outline: 0;
+     border: 0;
+     background: #DEB887;
+     border: 1px solid #c28d48;
+     padding: 8px 0px;
+     box-shadow: 0.5rem 0.4rem 0.5rem;
+     margin-bottom: 30px;
+     color: black;
+     text-transform: uppercase;
+     width: 125px;
+     font-family: inherit;
+     margin-right: 5px;
+     transition: all 0.3s ease;
+     font-weight: 500;
+     transform: scale(1.0);
+     
+   }
+
+   button:hover {
+    box-shadow: none;
+    transform: none;
+   }
+  
+   .backproducts {
+      
+    width: 100%;
+    color: #727272;
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: 2px solid #efefef;
+    font-size: 12px;
+   }
+
+   .logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.signup-login {
+  margin: 30px;
+  margin-bottom: 10px;
+  
+}
+
+
+    
+  
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
   }
 }
+
