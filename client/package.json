@@ -1,5 +1,5 @@
 {
-  "name": "humidor-haven-client",
+  "name": "mern-client",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
@@ -14,8 +14,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.1",
-    "react-star-rating-component": "^1.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
