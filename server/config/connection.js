@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://mannyrveloz23:Gw5Rw8pZwyXRjasx@humidor-haven.kqdzrtm.mongodb.net/humidor-haven?retryWrites=true&w=majority');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/humidor-haven');
 
 module.exports = mongoose.connection;
